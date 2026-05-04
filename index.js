@@ -1,37 +1,5 @@
 
 
-//function myFun () {return 'Hello world'}
-
-// function myFun (){
-//     return 'Hello world'
-// }
-
-// const myFun = (x, y) =>{
-//     return x + y
-// }
-//onsole.log(myFun(10 ,20))
-
-// function sayHello (name){
-//     return 'Rajib' + name
-// }
-
-// let fullName = sayHello('raj')
-
-// console.log(fullName)
-
-// function myMap(arr, callback) {
-//   let result = [];
-  
-//   for (let i = 0; i < arr.length; i++) {
-//     result.push(callback(arr[i], i));
-//   }
-
-//   return result;
-// }
-
-// // test
-// console.log(myMap([1,2,3], x => x * 2)); // [2,4,6]
-
 
 // console.log(typeof "Hello");   // string
 // console.log(typeof 10);        // number
@@ -134,44 +102,36 @@
 // console.log(calculateTotal(100, 2, 0.1, 40)); // "200.00"
 
 
-//const arr = [100, 212, 432, 432];
-
-//const ans = arr.reduce((acc, curr)=> acc + curr);
-
-// const arr = [11, 'a', 'd', 5, 9]
-
-// const numArr = arr.filter((curr)=> typeof curr === typeof 1)
-
-// console.log(numArr)
 
 
-//JavaScript interview qustion
 
-// console.log([]==![]);
 
-// function myFun (){
-//     return
-//     {name: 'Rajib'}
-// }
-// console.log(myFun());
+/* 
 
-// the difference between forEach and map method ?
-// the difference between filter and find method ?
-// the difference between some method and every method ?
-// the difference between primitive  and non-primitive data types ?
-// function is a primitive and non-primitive data type ?
-// what is what do you mean by selfinvoking functions ?
-// What do you mean by anonymous functions ?
-// what is the difference between call apply  and bind methods ?
-// there are diffrent types of scopes in JavaScript which are the ?
-// what are callback functions ?
-// there are different types of errors ?
-// what is a NaN property ?
-// What is a function curring in JavaScript ?
-// Can you tell me about JSX ?
-// What is higer order components ?
-// About coustom hooks ?
-// What is the use of lazy loading ?
-// What is a react router ?
-// The difference between  Redux and  context API ?
+   ==> JavaScript interview qustion <==
 
+1) What is the difference between foreach and map method
+2) In JavaScript, both forEach and map are used to iterate through arrays, but they have distinct behaviors and intended use cases.
+3) The core difference is that map() creates and returns a new array based on the results of the callback function, while forEach() returns undefined and is purely used for executing side effects. 
+4) What is the difference between filter and find method ?
+5) What is the difference between some method and every method ?
+6) What is the difference between primitive  and non-primitive data types ?
+7) What is function is a primitive and non-primitive data type ?
+8) what is what do you mean by selfinvoking functions ?
+9) What do you mean by anonymous functions ?
+10) What is the difference between call apply  and bind methods ?
+11) What is there are diffrent types of scopes in JavaScript which are the ?
+12) What is are callback functions ?
+13) There are different types of errors ?
+14) What is a NaN property ?
+15) What is a function curring in JavaScript ?
+16) Can you tell me about JSX ?
+17) What is higer order components ?
+18) About coustom hooks ?
+19) What is the use of lazy loading ?
+20) What is a react router ?
+21) The difference between  Redux and  context API ?
+22) The difference between normal function and arrow functions?
+23) The difference between use memohook  and use callback hook?
+
+*/

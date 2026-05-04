@@ -149,11 +149,22 @@ for(let i = 0; i < arr.length; i++){
      }
 }
 
-console.log(numb);
-console.log(txt)
+//console.log(numb);
+//console.log(txt)
 
 const sum = [10, 15, 20, 25, 30, 50, 100, 200,];
 const answer = sum.reduce((total, avg)=> total + avg)
 const result = sum.filter(num => num > 20 )
-console.log(result)
-console.log(answer);
+//console.log(result)
+//console.log(answer);
+
+const calculateTotal = (price, quantity, taxRate, discount)=>{
+    const subtotal = price * quantity;
+    const tax = subtotal * taxRate ;
+    const total = subtotal + tax - discount;
+
+    return total.toFixed(2)
+
+}
+
+console.log(calculateTotal(100, 2, 0.1, 40));

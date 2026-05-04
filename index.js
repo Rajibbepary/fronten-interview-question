@@ -135,3 +135,25 @@
 23) The difference between use memohook  and use callback hook?
 
 */
+
+const arr = [10, 15, 22, 32, 'Rajib', 'Setu,', 90, 40, 'Sojib'];
+
+const numb = [];
+const txt = [];
+
+for(let i = 0; i < arr.length; i++){
+    if(typeof arr[i] == 'string'){
+        numb.push(arr[i]);
+     }else if(typeof arr[i] == 'number'){
+        txt.push(arr[i]);
+     }
+}
+
+console.log(numb);
+console.log(txt)
+
+const sum = [10, 15, 20, 25, 30, 50, 100, 200,];
+const answer = sum.reduce((total, avg)=> total + avg)
+const result = sum.filter(num => num > 20 )
+console.log(result)
+console.log(answer);
